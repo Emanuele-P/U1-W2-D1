@@ -28,15 +28,15 @@ console.log('2)', myName)
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-let number1 = 10
-let number2 = 10
-console.log('3)', number1 + number2)
+let number1 = 12
+let number2 = 20
+console.log('3)', number1 + number2) //anotherSum
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-let number = 'x'
+let number = 'x' //abbreviated let x = 12
 console.log('4)', (x = 12))
 
 /* ESERCIZIO 5
@@ -65,4 +65,4 @@ console.log('6)', number3 - x)
 let name1 = 'john'
 let name2 = 'John'
 console.log('7)', name1 === name2)
-console.log('7 extra)', name1 !== name2)
+console.log('7 extra)', name1.toLowerCase === name2.toLowerCase)
